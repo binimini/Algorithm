@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <queue>
 #include <vector>
 using namespace std;
@@ -62,7 +62,7 @@ void tpsort() {
 		}
 	}
 }
-int main() {//�ε�ȣ
+int main() {//부등호
 	std::ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cin >> N;

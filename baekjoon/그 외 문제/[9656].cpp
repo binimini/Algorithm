@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 int N, dp[1001] = { 0 };
 int find_dp(int n) {
@@ -7,7 +7,7 @@ int find_dp(int n) {
 		return dp[n] = 1;
 	else  return dp[n] = -1;
 }
-int main() {//µ¹ °ÔÀÓ2
+int main() {//ëŒ ê²Œìž„2
 	cin >> N;
 	dp[1] = -1;
 	dp[2] = 1;

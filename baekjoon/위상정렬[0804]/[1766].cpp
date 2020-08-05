@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <queue>
@@ -42,7 +42,7 @@ void tpsort() {
 	}
 }
 
-int main() {//¹®Á¦Áý
+int main() {//ë¬¸ì œì§‘
 	std::ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cin >> N >> M;
