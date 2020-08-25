@@ -6,7 +6,6 @@ int idx[1000001];//값으로 접근하므로 범위 10^6
 stack<int> s;
 int i;
 void solve(int start, int end) {//왼쪽 - 오른쪽 - node
-    cout << start << " " << end << '\n';
     if (start > end) return;
     if (end >= i) return;
     solve(start + 1, idx[arr[start]] - 1);
