@@ -4,7 +4,7 @@
 #include <queue>
 using namespace std;
 int N, visited[10001] = { 0 };
-pair<int, int> maxi = { 0,0 }, parent[10001];
+pair<int, int> maxi = { 0,1 }, parent[10001];
 vector<pair<int, int>> child[10001];
 queue<int> q;
 void find_maxi() {
@@ -21,6 +21,8 @@ void find_maxi() {
     }
 }
 int main() {
+    std::ios_base::sync_with_stdio(0);
+    cin.tie(0);
     cin >> N;
     int p, c, v;
     for (int i = 0; i < N - 1; i++) {
