@@ -11,9 +11,7 @@ file name : [문제 번호] 문제 이름
 
 commit message : 문제 번호 : 유형 [변경사항] 으로 정리 진행 중입니다.
 
-![baekjoon](./image/baekjoon_image.jpg)
-
-id : [tnqls5417](https://www.acmicpc.net/user/tnqls5417)
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=tnqls5417)](https://solved.ac/tnqls5417)
 
 ### codeforce
 현재 휴식 중입니다.
