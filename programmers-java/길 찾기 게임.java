@@ -100,19 +100,3 @@ class Solution {
         return answer;
     }
 }
-
-
-
-public class Main {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[][] given = {{0,0}};
-        int[][] solve = solution.solution(given);
-        for (int i = 0; i<solve.length; i++){
-            for (int j = 0; j<solve[i].length; j++){
-                System.out.print(solve[i][j]+" ");
-            }
-            System.out.println();
-        }
-    }
-}
